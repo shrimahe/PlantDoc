@@ -1,29 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Plantix Clone</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PlantDoc - Upload Plant Image</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #e8f5e9;
+            color: #2e7d32;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.8rem;
+            text-align: center;
+            text-shadow: 1px 1px 4px #a5d6a7;
+        }
+
+        form {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #a5d6a7;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #43a047;
+            color: white;
+            border: none;
+            padding: 12px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2e7d32;
+        }
+
+        .result {
+            margin-top: 30px;
+            background: #c8e6c9;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(46, 125, 50, 0.25);
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: #1b5e20;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            word-wrap: break-word;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-        <h1>Plantix</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/features">Features</a>
-            <a href="/contact">Contact</a>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h2>Your Crop Doctor in Your Pocket</h2>
-        <p>Identify. Treat. Prevent. Plant diseases instantly.</p>
-        <button>Download App</button>
-    </section>
+    <h1>🌿 PlantDoc - Identify Plant Diseases</h1>
 
-    <footer>
-        <p>© 2025 Plantix Clone</p>
-    </footer>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required />
+        <input type="submit" value="Upload & Predict" />
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+        {{ prediction }}
+    </div>
+    {% endif %}
+
 </body>
 </html>

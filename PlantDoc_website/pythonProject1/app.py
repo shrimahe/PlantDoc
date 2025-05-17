@@ -1,29 +1,33 @@
-from flask import Flask, render_template, request, redirect, flash
+from flask import Flask, request, render_template 
+import os
+from werkzeug.utils import secure_filename
+from predict import predict_image
 
 app = Flask(__name__)
-app.secret_key = "plantixsecretkey"  # Required for flash messages
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template('index.html')
 
-@app.route('/features')
-def features():
-    return render_template("features.html")
+@app.route('/predict', methods=['POST'])
+def predict():
+    if 'file' not in request.files:
+        return "No file uploaded"
+    file = request.files['file']
+    if file.filename == '':
+        return "No selected file"
+    filename = secure_filename(file.filename)
+    filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    file.save(filepath)
 
-@app.route('/contact', methods=["GET", "POST"])
-def contact():
-    if request.method == "POST":
-        name = request.form.get("name")
-        email = request.form.get("email")
-        message = request.form.get("message")
+    prediction = predict_image(filepath)
 
-        # You could save this to a database or send an email here
-        print(f"Received message from {name} ({email}): {message}")
+    return render_template('index.html', prediction=prediction)
 
-        flash("Thank you! Your message has been received.")
-        return redirect("/contact")
-
-    return render_template("contact.html")
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
