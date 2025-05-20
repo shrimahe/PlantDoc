@@ -1,7 +1,6 @@
 import json
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 from werkzeug.utils import secure_filename
-import tensorflow as tf
 import numpy as np
 from PIL import Image
 import os
@@ -55,6 +54,8 @@ def predict():
                               prediction=prediction, 
                               remedy=remedy,
                               image_path=image_path)
+    return None
+
 
 @app.route('/cleanup/<filename>')
 def cleanup(filename):

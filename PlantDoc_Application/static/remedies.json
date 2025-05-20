@@ -1,166 +1,290 @@
 {
   "chilli_cercospora": {
-    "remedy": "Apply fungicide such as chlorothalonil or mancozeb. Ensure proper spacing and ventilation.",
-    "links": [
-      "https://www.planetnatural.com/pest-problem-solver/plant-disease/cercospora-leaf-spot/"
-    ],
-    "contact_support": "support@agriculture.com"
+    "crop": "Chilli",
+    "disease": " Chilli Cercospora Leaf Spot",
+    "pathogen": "Fungus",
+    "sci_name": "Cercospora capsici",
+    "symptoms": " Circular, brown spots: Initial symptoms appear as small, circular brown spots with light grey centers on leaves. \n Shot-hole appearance: The central portion of the spots may drop out, leaving a shot-hole appearance. \n Spot enlargement and coalescence: Spots can grow larger and combine with each other, eventually covering the entire leaf. \n Leaf yellowing and premature drop: Infected leaves may turn yellow and fall off prematurely. \n Stem and fruit infection: In severe cases, the fungus can also infect stems and fruits.",
+    "remedies": "Use beneficial bacteria like Bacillus subtilis. Perform Crop rotation and remove debris.",
+    "pesticides": "Fungicides such as propiconazole, Samartha, Dr Blight, KZEB."
   },
   "chilli_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Chilli",
+    "disease": "Helathy",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy plants exhibit vibrant green leaves, robust stems, and well-formed fruits.",
+    "remedies": "Not applicable; focus on preventive cultural practices like crop rotation and sanitation.",
+    "pesticides": "Not applicable; use preventive measures like neem oil for general pest deterrence."
   },
   "chilli_leafSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Chilli",
+    "disease": " Chilli Cercospora Leaf Spot",
+    "pathogen": "Fungus",
+    "sci_name": "Cercospora capsici",
+    "symptoms": "Small, water-soaked spots on leaves that turn dark brown to black with a yellow halo; spots may coalesce, causing leaf drop.",
+    "remedies": "Use beneficial bacteria like Bacillus subtilis. Perform Crop rotation and remove debris.",
+    "pesticides": "Fungicides such as propiconazole, Samartha, Dr Blight, KZEB."
   },
   "chilli_murdaComplex": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Chilli",
+    "disease": " Chilli Leaf Curl Virus (Murda Compplex)",
+    "pathogen": "Virus",
+    "sci_name": "",
+    "symptoms": "Leaf curling, stunted growth, reduced fruit size, caused by a complex of viruses transmitted by whiteflies.",
+    "remedies": "Control whitefly populations, use reflective mulches, plant resistant varieties, remove infected plants, weeds, use insect-proof nets.",
+    "pesticides": "Insecticides like imidacloprid or neem oil"
   },
   "chilli_nutritional": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Chilli",
+    "disease": " Nutritional Deficiencies",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "Yellowing leaves, stunted growth, poor fruit set due to nutrient deficiencies (e.g., nitrogen, potassium).",
+    "remedies": "Conduct soil tests, apply balanced fertilizers, ensure proper irrigation; foliar sprays for quick correction.",
+    "pesticides": "Not applicable; focus on nutrient management."
   },
   "chilli_powderyMildew": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Chilli",
+    "disease": "Powdery Mildew",
+    "pathogen": "Fungus",
+    "sci_name": "Leveillula taurica",
+    "symptoms": "White powdery coating on leaves, stems, and fruits; yellowing, curling leaves; premature leaf drop.",
+    "remedies": "Improve air circulation, avoid overhead irrigation, remove infected parts. Use beneficial bacteria like Bacillus subtilis.",
+    "pesticides": "Fungicides like triadimefon, propiconazole, TEBUSUL, SULVET, HEXA 5 PLUS."
   },
-  "chilli_leafSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+  "chilli_whitefly": {
+    "crop": "Chilli",
+    "disease": "Whiteflies",
+    "pathogen": "Insect",
+    "sci_name": "Aleyrodidae",
+    "symptoms": "Yellowing leaves, sticky honeydew, sooty mold, stunted growth; whiteflies visible on leaf undersides.",
+    "remedies": "Use yellow sticky traps, introduce natural predators like ladybugs, apply reflective mulches. Remove weeds, use insect-proof nets.",
+    "pesticides": "Insecticides like imidacloprid, pyriproxyfen, or neem oil."
   },
   "grape_blackRot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Grape",
+    "disease": "Black Rot of Grape",
+    "pathogen": "Fungus",
+    "sci_name": "Phyllostica ampelicida",
+    "symptoms": "Small, tan to brown spots on leaves with dark margins; black, shriveled berries; lesions on shoots.",
+    "remedies": "Remove infected plant parts, improve air circulation, avoid overhead irrigation.",
+    "pesticides": "Fungicides like myclobutanil, captan (consult local extension for approved options)."
   },
   "grape_esca": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Grape",
+    "disease": "Esca",
+    "pathogen": "Fungus",
+    "sci_name": "Tognina minima",
+    "symptoms": "Leaf discoloration, tiger-stripe patterns, wood necrosis, dieback of vines.",
+    "remedies": "Prune affected wood, avoid wounding vines, monitor for early symptoms.",
+    "pesticides": "No specific pesticides; sodium arsenite can be used."
   },
   "grape_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Grape",
+    "disease": "",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy vines with green leaves, strong shoots, and well-formed clusters.",
+    "remedies": "Not applicable; focus on preventive practices like pruning and irrigation management.",
+    "pesticides": "Not applicable; use preventive sprays like sulfur for general fungal protection."
   },
   "grape_leafBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Grape",
+    "disease": "Leaf Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Phakopsora euvitis",
+    "symptoms": "Irregular brown to black spots on leaves, leaf yellowing, premature defoliation.",
+    "remedies": "Remove infected leaves, improve air circulation, use drip irrigation.",
+    "pesticides": "Fungicides like copper-based products or mancozeb."
   },
   "maize_cercosporaLeafSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Maize",
+    "disease": "Grey Leaf Spot of Maize",
+    "pathogen": "Fungus",
+    "sci_name": "Cercospora zeae-maydis",
+    "symptoms": "Small, tan to grey spots with brown borders on leaves; spots coalesce, causing leaf blight.",
+    "remedies": "Plant resistant hybrids, remove crop debris, use crop rotation; tillage to bury residue.",
+    "pesticides": "Fungicides like azoxystrobin, pyraclostrobin."
   },
   "maize_commonRust": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Maize",
+    "disease": "Commom Rust of Maize",
+    "pathogen": "Fungus",
+    "sci_name": "Puccina sorghi",
+    "symptoms": "Orange to rust-colored pustules on leaves, reducing photosynthesis; severe cases cause yield loss.",
+    "remedies": "Plant resistant hybrids, monitor early, avoid dense planting. Crop rotation, remove debris.",
+    "pesticides": "Fungicides like propiconazole, tebuconazole."
   },
   "maize_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Maize",
+    "disease": "",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy plants with green leaves, strong stalks, and full ears.",
+    "remedies": "Maintain soil fertility, monitor pests, use resistant hybrids; focus on preventive practices like crop rotation.",
+    "pesticides": "Not applicable; use preventive fungicides if risk is high."
   },
   "maize_northernLeafBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Maize",
+    "disease": "Northern Leaf Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Setosphaeria turcica",
+    "symptoms": "Long, grey-green to tan lesions on leaves, often with a cigar shape; reduces photosynthesis.",
+    "remedies": "Plant resistant hybrids, remove crop debris, use crop rotation.",
+    "pesticides": "Fungicides like azoxystrobin, propiconazole."
   },
   "potato_earlyBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Alternaria solani",
+    "symptoms": "Dark brown to black spots with concentric rings (‘target spots’) on leaves; leaf yellowing and drop.",
+    "remedies": "Plant resistant varieties, remove infected debris, use crop rotation.",
+    "pesticides": "Fungicides like chlorothalonil, mancozeb. "
   },
   "potato_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Potato",
+    "disease": "",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy plants with green foliage, strong tubers, and no lesions.",
+    "remedies": "Not applicable; focus on preventive practices like crop rotation.",
+    "pesticides": "Not applicable; use preventive fungicides if needed."
   },
   "potato_lateBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Potato",
+    "disease": "Potato Late Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Phytophtora infestans",
+    "symptoms": "Water-soaked spots on leaves turning purple-brown; white fungal growth on leaf undersides; tuber rot.",
+    "remedies": "Remove infected plants, use drip irrigation, plant resistant varieties.",
+    "pesticides": "Fungicides like chlorothalonil, mancozeb, phosphorous acid."
   },
-  "rice_bacterialBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+  "rice_bacterialBlight":{
+    "crop": "Rice",
+    "disease": "Bacterial Blight",
+    "pathogen": "Bacteria",
+    "sci_name": "Xanthomonas oryzae pv.oryzae",
+    "symptoms": "Water-soaked lesions on leaves turning yellow to grey-white; leaf drying and wilting; stem blackening.",
+    "remedies": "Use resistant varieties, avoid excessive nitrogen, remove infected debris.",
+    "pesticides": "Bactericides like copper-based compounds."
   },
   "rice_brownSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Rice",
+    "disease": "Brown Spot",
+    "pathogen": "Fungus",
+    "sci_name": "Cochilobolus miyabeanus",
+    "symptoms": "Small, brown to grey spots on leaves, often with yellow halos; severe cases cause leaf drop.",
+    "remedies": "Use resistant varieties, improve soil fertility, avoid water stress. Balanced fertilization, remove debris.",
+    "pesticides": "Fungicides like propiconazole, tricyclazole."
   },
-  "rice_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+  "rice_healthy":{
+    "crop": "Rice",
+    "disease": "",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy plants with green leaves, strong tillers, and full panicles.",
+    "remedies": "Not applicable; focus on preventive practices like field sanitation.",
+    "pesticides": "Not applicable; use preventive fungicides if needed."
   },
   "rice_leafSmut": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
-  },
+    "crop": "Rice",
+    "disease": "Leaf Smut",
+    "pathogen": "Fungus",
+    "sci_name": "Tilletia barclayana",
+    "symptoms": "Small, black spots on leaves; severe infections cause leaf distortion and reduced yield.",
+    "remedies": "Use resistant varieties, remove infected debris, avoid overhead irrigation.",
+    "pesticides": "Fungicides like carbendazim."
+           },
   "tomato_bacterialSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Bacterial Spot and Speck of Tomato",
+    "pathogen": "Bacteria",
+    "sci_name": "Xanthomonas spp. & Pseudomonas syringae pv.",
+    "symptoms": "Small, water-soaked spots on leaves turning dark brown to black with yellow halos; fruit spots with raised edges.",
+    "remedies": "Use disease-free seeds, avoid overhead irrigation, remove infected plants. Cultural: Crop rotation, sanitation.",
+    "pesticides": "Copper-based bactericides, streptomycin."
   },
   "tomato_earlyBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
-  },
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Alternaria solani",
+    "symptoms": "Dark brown spots with concentric rings on leaves; leaf yellowing and drop; stem lesions.",
+    "remedies": "Plant resistant varieties, remove debris, use crop rotation. Sanitation, proper spacing.",
+    "pesticides": "Fungicides like chlorothalonil, mancozeb."
+            },
   "tomato_healthy": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "",
+    "pathogen": "",
+    "sci_name": "",
+    "symptoms": "No disease symptoms; healthy plants with green leaves, strong stems, and well-formed fruits.",
+    "remedies": "Not applicable; focus on preventive practices like crop rotation.",
+    "pesticides": "Not applicable; use preventive fungicides if needed."
   },
   "tomato_lateBlight": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Tomato Late Blight",
+    "pathogen": "Fungus",
+    "sci_name": "Phytophtora infestans",
+    "symptoms": "Water-soaked spots on leaves turning purple-brown; white fungal growth on leaf undersides; brown fruit rot.",
+    "remedies": "Remove infected plants, use drip irrigation, plant resistant varieties. Crop rotation, sanitation.",
+    "pesticides": "Fungicides like chlorothalonil, mancozeb, phosphorous acid."
   },
   "tomato_leafMold": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "pathogen": "Fungus",
+    "sci_name": "Mycovellosiella fulva",
+    "symptoms": "Yellow spots on upper leaf surfaces; greyish-white fungal growth on undersides; leaf drop.",
+    "remedies": "Improve air circulation, avoid overhead irrigation, remove infected leaves. Sanitation, proper spacing.",
+    "pesticides": "Fungicides like chlorothalonil, copper-based products (consult local extension)."
   },
   "tomato_mosaicVirus": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Tomato mosaic Virus",
+    "pathogen": "Virus",
+    "sci_name": "TMV",
+    "symptoms": "Mottled leaves with yellow and green patches; stunted growth; distorted fruits.",
+    "remedies": "Use virus-free seeds, remove infected plants, control aphids. Sanitation, remove weeds. No chemical control for viruses.",
+    "pesticides": "Not applicable; control insect vectors with insecticides like neem oil."
   },
   "tomato_septoriaLeafSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "pathogen": "Fungus",
+    "sci_name": "Septoria iycopesici",
+    "symptoms": "Small, water-soaked spots on leaves turning grey with black margins; yellowing and leaf drop.",
+    "remedies": "Remove infected leaves, use drip irrigation, plant resistant varieties. Crop rotation, sanitation.",
+    "pesticides": "Fungicides like chlorothalonil, mancozeb."
   },
   "tomato_spiderMites": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Spider Mites",
+    "pathogen": "Mite",
+    "sci_name": "Tetranychidae",
+    "symptoms": "Yellow stippling on leaves, fine webbing, leaf bronzing, and drop; tiny mites visible with a lens.",
+    "remedies": "Increase humidity, use water sprays to dislodge mites, introduce predatory mites. Maintain plant health, remove infested leaves. Use predatory mites.",
+    "pesticides": "Miticides like abamectin, bifenazate."
   },
   "tomato_targetSpot": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+    "crop": "Tomato",
+    "disease": "Target Spot",
+    "pathogen": "Fungus",
+    "sci_name": "Rhizoctonia solani",
+    "symptoms": "Dark brown to black spots with concentric rings on leaves; fruit lesions with sunken centers.",
+    "remedies": "Remove infected leaves, improve air circulation, use drip irrigation. Crop rotation, sanitation.",
+    "pesticides": "Fungicides like azoxystrobin, chlorothalonil."
   },
-  "tomato_yellowLeafCurlCirus": {
-    "remedy": "No action needed, the plant is healthy.",
-    "links": [],
-    "contact_support": ""
+  "tomato_yellowLeafCurlVirus": {
+    "crop": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "pathogen": "Virus",
+    "sci_name": "TYLCV",
+    "symptoms": "Upward leaf curling, yellowing, stunted growth, reduced fruit yield; transmitted by whiteflies.",
+    "remedies": "Control whiteflies with sticky traps, use reflective mulches, plant resistant varieties. Remove weeds, use insect-proof nets. No chemical control for viruses.",
+    "pesticides": "Insecticides like imidacloprid for whitefly control."
   }
 }
-
-
