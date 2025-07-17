@@ -9,13 +9,13 @@ from pathlib import Path
 import os
 
 # Parameters
-BASE_DIR = Path("S:/4th_sem/PlantDoc/Dataset")
+BASE_DIR = Path("") # Set to your base directory (dataset)
 TRAIN_DIR = BASE_DIR / "train"
 VAL_DIR = BASE_DIR / "val"
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 30
-MODEL_SAVE_PATH = BASE_DIR / "PlantDoc_ver_2_model.h5"
+MODEL_SAVE_PATH = BASE_DIR / "PlantDocNet_v1.h5"
 
 print("\nChecking dataset structure...")
 print(f"Train directory exists: {TRAIN_DIR.exists()}") ; 
