@@ -7,7 +7,7 @@ PlantDoc is a web-based application designed to identify plant diseases and defi
 - **Remedy Suggestions**: Provides curated remedies for identified diseases, including organic and conventional approaches.
 - **Responsive Web Interface**: Built with HTML5, CSS3, Bootstrap, and Flask for cross-device compatibility.
 - **High Accuracy**: Achieves 98% weighted average accuracy across 25,664 test images.
-- **Scalable Backend**: Modular Flask architecture supports future enhancements like cloud hosting or database integration.
+- **Scalable Backend**: Modular Flask architecture supports future enhancements like cloud hosting or database integration
 
 ## Project Structure
 ```
